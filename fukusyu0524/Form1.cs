@@ -21,14 +21,16 @@ namespace fukusyu0524
 
         private void button3_Click(object sender, EventArgs e)
         {
-            vx=5;
+            vx = 5;
             vy = 0;
+            label1.Text = "(´・ω・｀)";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             vx = 0;
-            vy=-5;
+            vy = -5;
+            label1.Text = "(*´Д｀)";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -39,14 +41,23 @@ namespace fukusyu0524
 
         private void button2_Click(object sender, EventArgs e)
         {
-            vx=-5;
+            vx = -5;
             vy = 0;
+            label1.Text = "( ;∀;)";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             vx = 0;
-            vy=5;
+            vy = 5;
+            label1.Text = "(^^)/";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            vx = 0;
+            vy = 0;
+            label1.Text = "(/ω＼)";
         }
     }
 }
